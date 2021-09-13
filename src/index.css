@@ -1,0 +1,17 @@
+* {
+  font-family: "Barlow", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #011824;
+}
+
+#root {
+  width: 90vw;
+  height: 100vh;
+  margin: 0 auto;
+}
