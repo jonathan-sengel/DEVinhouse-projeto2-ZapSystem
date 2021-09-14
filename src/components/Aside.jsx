@@ -32,8 +32,8 @@ const Aside = () => {
   return (
     <LateralMenu>
       <List>
-        <li onClick={() => history.push("/dash/teste")}>Dashboard</li>
-        <li onClick={() => history.push("/dash/home")}>Mensagens</li>
+        <li onClick={() => history.push("/dash/home")}>Dashboard</li>
+        <li onClick={() => history.push("/dash/messages")}>Mensagens</li>
       </List>
     </LateralMenu>
   );
