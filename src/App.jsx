@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/dash">
+        <Route path="/">
           <GridArea>
             <Header />
             <Aside />
