@@ -6,7 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact>
+        <Route path="/sys">
           <ZapSystemPage />
         </Route>
         <Route>
