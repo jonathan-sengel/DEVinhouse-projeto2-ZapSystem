@@ -54,7 +54,14 @@
       "channel": "email",
       "trigger": "abertura_conta",
       "timer": "13:44",
-      "message": "Solicitou alteração dos dados via e-mail! #edit 02"
+      "message": "Ultima edição antes de enviar para o SENAI"
+    },
+    {
+      "trigger": "ativar_cliente",
+      "channel": "email",
+      "timer": "23:43",
+      "message": "Ultimo cadastro antes de enviar para o github.",
+      "id": 1631313726758
     }
   ],
   "channels": [
