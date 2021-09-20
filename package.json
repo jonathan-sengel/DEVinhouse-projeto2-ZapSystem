@@ -1,20 +1,29 @@
 {
-  "name": "projeto2-zap-system",
+  "name": "projeto2-zap_system",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
+    "@chakra-ui/icons": "^1.0.15",
+    "@chakra-ui/react": "^1.0.0",
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "@testing-library/jest-dom": "^5.9.0",
+    "@testing-library/react": "^10.2.1",
+    "@testing-library/user-event": "^12.0.2",
+    "axios": "^0.21.4",
     "chart.js": "^3.5.1",
+    "framer-motion": "^4.0.0",
     "json-server": "^0.16.3",
     "react": "^17.0.2",
-    "react-chartjs-2": "^3.0.4",
+    "react-chartjs-2": "^3.0.5",
     "react-dom": "^17.0.2",
+    "react-icons": "^3.0.0",
+    "react-redux": "^7.2.5",
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
-    "styled-components": "^5.3.1",
-    "web-vitals": "^1.0.1"
+    "redux": "^4.1.1",
+    "web-vitals": "^0.2.2",
+    "yup": "^0.32.9"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -24,10 +33,7 @@
     "server": "json-server server.json --port 3333"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [

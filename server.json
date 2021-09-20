@@ -1,39 +1,60 @@
 {
   "messages": [
     {
-      "id": 11,
-      "channel": "sms",
-      "trigger": "abertura_conta",
-      "timer": "15:00",
-      "message": " Na correria do dia a dia a Oi Conta Zap te ajuda a lembrar de algumas coisinhas! Ja conseguiu pagar seu boleto? Se sim, desconsidere a mensagem"
-    },
-    {
-      "id": 21,
-      "channel": "sms",
-      "trigger": "fez_pix",
-      "timer": "5:00",
-      "message": " Na correria do dia a dia a Oi Conta Zap te ajuda a lembrar de algumas coisinhas! Ja conseguiu pagar seu boleto? Se sim, desconsidere a mensagem"
-    },
-    {
-      "id": 1,
+      "trigger": "deletou_chave_pix",
       "channel": "whatsapp",
+      "timer": "17:37",
+      "message": "Testando inclusão de nova mensagem no sisteminha!",
+      "id": 1631313726748
+    },
+    {
       "trigger": "abertura_conta",
-      "timer": "73:00",
-      "message": " Na correria do dia a dia a Oi Conta Zap te ajuda a lembrar de algumas coisinhas! Ja conseguiu pagar seu boleto? Se sim, desconsidere a mensagem"
-    },
-    {
-      "id": 1631312843768,
-      "channel": "whatsapp",
-      "trigger": "criou_chave_pix",
-      "timer": "12:00",
-      "message": "vI  que você criou um chave ?"
-    },
-    {
-      "id": 1631313726738,
       "channel": "email",
+      "timer": "22:15",
+      "message": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "id": 1631313726749
+    },
+    {
+      "id": 1631313726750,
+      "channel": "email",
+      "trigger": "fex_transferencia_outro_banco",
+      "timer": "23:23",
+      "message": "This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\"."
+    },
+    {
+      "trigger": "consultou_saldo",
+      "channel": "whatsapp",
+      "timer": "07:54",
+      "message": "Cliente consultou seu saldo via Whatsapp, por voz;",
+      "id": 1631313726751
+    },
+    {
+      "trigger": "alterou_dados_pessois",
+      "channel": "sms",
+      "timer": "12:00",
+      "message": "Lavou as mãos antes de comer!",
+      "id": 1631313726753
+    },
+    {
       "trigger": "fez_pix",
-      "timer": "2323",
-      "message": "23232323"
+      "channel": "whatsapp",
+      "timer": "22:00",
+      "message": "Gosta de comer macarrão de domingo!",
+      "id": 1631313726755
+    },
+    {
+      "id": 1631313726756,
+      "channel": "whatsapp",
+      "trigger": "recarregou_celular",
+      "timer": "79:88",
+      "message": "Realizou recarga de celular pelo whatsapp, utilizando a opção de teste! #edited"
+    },
+    {
+      "id": 1631313726757,
+      "channel": "email",
+      "trigger": "abertura_conta",
+      "timer": "13:44",
+      "message": "Solicitou alteração dos dados via e-mail! #edit 02"
     }
   ],
   "channels": [
@@ -86,6 +107,10 @@
     {
       "id": 9,
       "name": "falou_com_atendimento"
+    },
+    {
+      "id": 10,
+      "name": "ativar_cliente"
     }
   ]
 }
