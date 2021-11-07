@@ -1,11 +1,11 @@
 {
   "messages": [
     {
-      "trigger": "deletou_chave_pix",
+      "id": 1631313726748,
       "channel": "whatsapp",
+      "trigger": "deletou_chave_pix",
       "timer": "17:37",
-      "message": "Testando inclusão de nova mensagem no sisteminha!",
-      "id": 1631313726748
+      "message": "Testando inclusão de nova mensagem no sisteminha!2222"
     },
     {
       "trigger": "abertura_conta",
